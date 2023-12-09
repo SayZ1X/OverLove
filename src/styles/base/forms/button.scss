@@ -1,0 +1,19 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2000px;
+  background: #ffd703;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover,
+  &:focus {
+    background-color: #e4be00;
+    transition: 0.3s;
+  }
+
+  @media (max-width: $tab3) {
+    padding: 10px 31px;
+  }
+}
